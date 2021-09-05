@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;SudokuSolver.java&apos; to &apos;lab6/src/map&apos;&#x0A;- Original project: &apos;project&apos;&#x0A;- Destination element: &apos;lab6/src/map&apos;&#x0A;- Original element: &apos;SudokuSolver.java&apos;" description="Copy file" destination="=lab6/src&lt;map" element1="SudokuSolver.java" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1614692473579" units="0" version="1.0"/>
+</session>

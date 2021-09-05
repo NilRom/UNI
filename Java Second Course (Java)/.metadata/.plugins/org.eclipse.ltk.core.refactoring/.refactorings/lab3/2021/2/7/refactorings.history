@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;WordCountComparator.java&apos; to &apos;lab3/src/textproc&apos;&#x0A;- Original project: &apos;lab3&apos;&#x0A;- Destination element: &apos;lab3/src/textproc&apos;&#x0A;- Original element: &apos;textproc.WordCountComparator.java&apos;" description="Copy compilation unit" destination="/src&lt;textproc" element1="/src&lt;textproc{WordCountComparator.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1613684650280" units="1" version="1.0"/>
+</session>

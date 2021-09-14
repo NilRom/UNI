@@ -29,7 +29,7 @@ clear all
 clc
 load input_files/cello.mat
 load input_files/trombone.mat
-soundsc(trombone.x)
+soundsc(cello.x)
 spekgui
 
 %% 4.2 Aliasing

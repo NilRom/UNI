@@ -40,6 +40,7 @@ load input_files/trombone.mat
 n = 2;
 cello2.x = cello.x(1:n:end);
 cello2.dt = cello.dt*n;
+decimate(cello2.x,n)
 trombone2.x = trombone.x(1:n:end);
 trombone2.dt = trombone.dt*n;
 spekgui

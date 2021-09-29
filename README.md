@@ -10,6 +10,23 @@ This folder contains a sample demo of the object detection model I implemented a
   <img src="https://user-images.githubusercontent.com/79469939/135309198-c15d8377-ccb7-4bd3-9560-92375afc1086.png" width="450" height = "300"/>
 </p>
 
+## [Advanced Algorithms in Python](https://github.com/NilRom/UNI/tree/main/Advanced_algorithms_in_python)
+This folder contains projects in FMAN25, Advanced algorithms in pythons. For a full outline of every project please take a look at the pdf file in each project folder.
+### Project 1.
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/79469939/135302574-d11b243e-e533-477d-82a3-9e7196655e86.png" width="450" height = "300"/>
+  <img src="https://user-images.githubusercontent.com/79469939/135302581-51d0bb65-b10f-4e40-a392-715067cedf2d.png" width="450" height = "300"/>
+</p>
+Project 1 explores cubic splines and the deBoor algorithm. Above are some sample images created by the program. The right is a cubic spline and the left its basis functions visualized.
+
+### Project 2.
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/79469939/135304973-9dc21c31-82b1-4139-b906-afb3c2be9a4b.png" width="300" height = "300"/>
+  <img src="https://user-images.githubusercontent.com/79469939/135304970-e5c253d3-79dc-43d5-be74-2a72d0133621.png" width="300" height = "300"/>
+  <img src="https://user-images.githubusercontent.com/79469939/135305794-12acfc7d-4526-4811-ae28-6a6ee03e1f57.png" width="300" height = "300"/>
+</p>
+Project 2 covers multivariate optimization methods such as the Newton method and quasi Newton methods such as BFGS and DFP.
+
 ## [Numerical Methods for Differential Equations](https://github.com/NilRom/UNI/tree/main/Numerical%20Methods%20for%20differnetial%20equations)
 This folder contains python files for solving differential equations from classical physics numerically. Below are some sample outputs containing plots of the solutions to partial differential equations from project 3. Please see project 1 for simple time stepping methods and project 2 for finite differance methods. A complete overview for each project is found in the pdf file in each project folder.
 <p float="left">
@@ -18,22 +35,6 @@ This folder contains python files for solving differential equations from classi
   <img src="https://user-images.githubusercontent.com/79469939/135307417-9f1ee22e-059a-4529-a659-ee1a249cf7be.png" width="300" height = "300"/>
 </p>
 
-## [Advanced Algorithms in Python](https://github.com/NilRom/UNI/tree/main/Advanced_algorithms_in_python)
-This folder contains projects in FMAN25, Advanced algorithms in pythons. For a full outline of every project please take a look at the pdf file in each project folder.
-### Project1
-<p float="left">
-  <img src="https://user-images.githubusercontent.com/79469939/135302574-d11b243e-e533-477d-82a3-9e7196655e86.png" width="450" height = "300"/>
-  <img src="https://user-images.githubusercontent.com/79469939/135302581-51d0bb65-b10f-4e40-a392-715067cedf2d.png" width="450" height = "300"/>
-</p>
-Project 1 explores cubic splines and the deBoor algorithm. Above are some sample images created by the program. The right is a cubic spline and the left its basis functions visualized.
-
-### Project2
-<p float="left">
-  <img src="https://user-images.githubusercontent.com/79469939/135304973-9dc21c31-82b1-4139-b906-afb3c2be9a4b.png" width="300" height = "300"/>
-  <img src="https://user-images.githubusercontent.com/79469939/135304970-e5c253d3-79dc-43d5-be74-2a72d0133621.png" width="300" height = "300"/>
-  <img src="https://user-images.githubusercontent.com/79469939/135305794-12acfc7d-4526-4811-ae28-6a6ee03e1f57.png" width="300" height = "300"/>
-</p>
-Project 2 covers multivariate optimization methods such as the Newton method and quasi Newton methods such as BFGS and DFP.
 
 ## [Finite Element Method](https://github.com/NilRom/UNI/tree/main/Finite%20Element%20Method)
 This folder contains a project in the finite element method. For the full results of the project and an explination of the theory behind the FEM, please see the pdf file in the project folder. Below are some sample images from solid mechanics and heat conduction projects I solved using the FEM. The project folder also contains the code used for performing the FEM analysis.

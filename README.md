@@ -4,7 +4,7 @@ This is my backup of personal computer projects. Due to confidentiality reasons 
 
 
 ## [ML Demo](https://github.com/NilRom/UNI/tree/main/ML_Demo)
-This folder contains a sample demo of the object detection model I implemented at XPL. I can naturally not share the code for the original model, however this folder contains a demo of what the model actually does. Below are some sample outputs from the model when it is run on some test input.
+This folder contains a sample demo of the object detection model I implemented at XPL. I can naturally not share the code for the original model, however this folder contains a demo of what the model actually does. Below are some sample outputs from the model when it is run on some test input. Please see the notebook file titled "Demo.ipynb" for a full demo.
 <p float="left">
   <img src="https://user-images.githubusercontent.com/79469939/135309068-ed983ec9-469c-4f58-b958-fa46e514ae2c.png" width="400" height = "300"/>
   <img src="https://user-images.githubusercontent.com/79469939/135309198-c15d8377-ccb7-4bd3-9560-92375afc1086.png" width="400" height = "300"/>

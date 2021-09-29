@@ -48,7 +48,7 @@ This folder contains a project in the finite element method. For the full result
 
 
 ## [Java Second Course](https://github.com/NilRom/UNI/tree/main/Java%20Second%20Course)
-This folder contains the projects I completed in my second course of java programming at university. During this course I, for example, created an application that automatically solved a sudoku, as shown below.
+This folder contains the projects I completed in my second course of java programming at university. During this course I, for example, created an application that automatically solved any sudoku puzzle, as shown below.
 <p float="left">
   <img src="https://user-images.githubusercontent.com/79469939/135311747-6ed22efd-44d1-4e77-93f8-ea489adad27a.png" width="550" height = "300"/>
 </p>

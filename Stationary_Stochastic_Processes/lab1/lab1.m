@@ -14,8 +14,10 @@ clear all
 clc
 load input_files/covProc.mat
 k = 1;
+figure
 plot(covProc(1:end-k),covProc(k+1:end),'.')
 [ycov,lags]=xcov(covProc,20,'biased')
+figure
 plot(lags,ycov)
 
 

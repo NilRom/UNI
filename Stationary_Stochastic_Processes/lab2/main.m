@@ -78,7 +78,7 @@ semilogy(f,Rhat) % Logarithmic scale
 
 n = length(x);
 K = 10;
-L = n / K + n/K * (K-1)/2;
+L = round(2*n /(K+1));
 figure
 pwelch(x,hanning(L),[],4096)
 
@@ -145,7 +145,7 @@ periodogram(y3,[],4096,1)
 %%
 n = length(y1);
 K = 10;
-L = n / K + n/K * (K-1)/2;
+L = round(2*n /(K+1));
 figure
 pwelch(y1,hanning(L),[],4096);
 figure
@@ -168,7 +168,7 @@ clc
 load threeprocessdata.mat
 n = length(y1);
 K = 10;
-L = n / K + n/K * (K-1)/2;
+L = round(2*n /(K+1));
 figure
 mscohere(x1,y1,hanning(L),[],4096);
 figure

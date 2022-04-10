@@ -1,0 +1,26 @@
+{
+    "id": "2DFA0130",
+    "path": "~/linlog/lab1.R",
+    "project_path": "lab1.R",
+    "type": "r_source",
+    "hash": "21084896",
+    "contents": "",
+    "dirty": false,
+    "created": 1649189973610.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "172,0",
+        "scrollLine": "151"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1649495711,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1649495711337,
+    "read_only": false,
+    "read_only_alternatives": []
+}

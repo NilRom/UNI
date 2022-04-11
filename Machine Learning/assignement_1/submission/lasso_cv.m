@@ -32,16 +32,17 @@ hop = Nval; % How many samples to skip when moving to the next fold.
 
 for kfold = 1:K
    
-    valind = [location+1:location+Nval]; % Select validation indices
-    estind = [1:location location+Nval+1:N]; % Select estimation indices
+    valind = location+1:location+Nval; % Select validation indices
+    estind = [1:location, location+Nval+1:N]; % Select estimation indices
     assert(isempty(intersect(valind,estind)), "There are overlapping indices in valind and estind!"); % assert empty intersection between valind and estind
     wold = zeros(M,1); % Initialize estimate for warm-starting.
     
     for klam = 1:Nlam
         
-        what = skeleton_lasso_ccd(t(randomind(estind)) ,X(randomind(estind),:),lambdavec(klam), wold); % Calculate LASSO estimate on estimation indices for the current lambda-value.        
-        SEval(kfold,klam) = norm(t(randomind(valind)) - X(randomind(valind),:) * what, 2); % Calculate validation error for this estimate
-        SEest(kfold,klam) = norm(t(randomind(estind)) - X(randomind(estind),:) * what, 2); % Calculate estimation error for this estimate
+        what = lasso_ccd(t(randomind(estind)) ,X(randomind(estind),:),lambdavec(klam), wold); % Calculate LASSO estimate on estimation indices for the current lambda-value.        
+        SEval(kfold,klam) = 1/Nval * norm(t(randomind(valind)) - X(randomind(valind),:) * what, 2)^2; % Calculate validation error for this estimate
+        Nest = N - Nval;
+        SEest(kfold,klam) = 1/Nest * norm(t(randomind(estind)) - X(randomind(estind),:) * what, 2)^2; % Calculate estimation error for this estimate
         
         wold = what; % Set current estimate as old estimate for next lambda-value.
         disp(['Fold: ' num2str(kfold) ', lambda-index: ' num2str(klam)]) % Display current fold and lambda-index.
@@ -58,9 +59,9 @@ MSEest = mean(SEest,1); % Calculate MSE_est as mean of estimation error over the
 RMSEval = sqrt(MSEval);
 RMSEest = sqrt(MSEest);
 
-[best_val, best_index] = min(MSEval);
+[~, best_index] = min(MSEval);
 lambdaopt = lambdavec(best_index);
-wopt = skeleton_lasso_ccd(t,X,lambdaopt); % Calculate LASSO estimate for selected lambda using all data.
+wopt = lasso_ccd(t,X,lambdaopt); % Calculate LASSO estimate for selected lambda using all data.
 
 end
 

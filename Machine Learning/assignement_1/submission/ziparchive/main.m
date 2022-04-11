@@ -1,7 +1,6 @@
 set(groot,'defaultLineMarkerSize',7)
-
-%% Task 4
 format long g
+%% Task 4
 run run_task4.m
 
 %% Task 5

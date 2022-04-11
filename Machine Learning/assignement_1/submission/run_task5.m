@@ -2,10 +2,7 @@
 %% Task 5
 clear all;
 clc;
-myfile = '"A1_data.mat"';
-[parentdir,~,~]=fileparts(pwd);
-load(fullfile(parentdir,myfile))
-
+load("../A1_data.mat")
 K = 50;
 lambda_min = 0.1;
 lambda_max = 10;
@@ -27,7 +24,7 @@ legend_string= sprintf('Lambda = %.3f',lambdaopt);
 legend('RMSEval', 'RMSEest', legend_string);
 xlabel('\lambda');
 ylabel('RMSE');
-saveas(gcf,'outputs/t51.png')
+saveas(gcf,'../outputs/t51.png')
 
 %% 
 figure(2)
@@ -39,4 +36,4 @@ legend_string= sprintf('Lambda = %.3f',lambdaopt);
 legend(legend_string)
 legend('Ground Truth', legend_string, 'interpolation', 'Interpreter','latex');
 xlabel('Time indices n');
-saveas(gcf,'outputs/t52.png')
+saveas(gcf,'../outputs/t52.png')

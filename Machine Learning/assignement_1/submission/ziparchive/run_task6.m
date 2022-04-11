@@ -1,13 +1,13 @@
 %% Task 6
 clear all;
 clc;
-load("A1_data.mat")
+load("../A1_data.mat")
 grid_size = 50;
 K = 10;
 lambda_min = 1e-4;
 lambda_max = 1;
 param_grid= exp(linspace(log(lambda_min),log(lambda_max), grid_size));
-[Wopt,lambdaopt,RMSEval,RMSEest] = skeleton_multiframe_lasso_cv(Ttrain,X,param_grid,K);
+[Wopt,lambdaopt,RMSEval,RMSEest] = multiframe_lasso_cv(Ttrain,X,param_grid,K);
 
 
 
@@ -26,5 +26,5 @@ set(gca, 'Xscale', 'log');
 legend('RMSEval', 'RMSEest', legend_string);
 xlabel('\lambda');
 ylabel('RMSE');
-saveas(gcf,'outputs/t61.png')
+saveas(gcf,'../outputs/t61.png')
 

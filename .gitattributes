@@ -1,3 +1,4 @@
 language_technology/** linguist-vendored
 object_detection_demo/** linguist-vendored
 numerical_methods_for_differential_equations/** linguist-vendored
+machine_learning/** linguist-vendored

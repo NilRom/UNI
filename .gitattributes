@@ -1,1 +1,3 @@
-notebooks/** linguist-vendored
+language_technology/** linguist-vendored
+optimization_for_machine_learning/** linguist-vendored
+object_detection_demo/** linguist-vendored

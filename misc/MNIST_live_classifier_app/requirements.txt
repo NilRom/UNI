@@ -1,0 +1,8 @@
+streamlit
+streamlit-drawable-canvas
+torch
+torchvision
+opencv-python-headless
+plotly
+pathlib
+

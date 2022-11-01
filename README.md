@@ -20,11 +20,22 @@ This folder contains a sample demo of the object detection model I implemented a
 This is another toy web-app that I created after having learnt the basics of pytorch. It enables the user to draw an MNIST-like digit and having it classified by a pretrained digit classifier. Try it out [here.](https://github.com/NilRom/UNI/tree/main/misc/MNIST_live_classifier_app)
 ![Screen Shot 2022-11-01 at 16 00 01](https://user-images.githubusercontent.com/79469939/199267485-097391e0-76fe-4ecb-b763-64a889647906.png)
 
+## [EDAN20 Language Technology](https://github.com/NilRom/UNI/tree/main/language_technology)
+This is an introduction course to NLP. The folder contains scripts and reports covering different NLP algorithms. Below is an image displaying the first transformer architecture from the attention is all you need paper.
+![trans](https://user-images.githubusercontent.com/79469939/199274579-a8eb2bfb-3a6a-490f-bcf9-06892ffde4ae.png)
+
 
 ## [FRTN50 Optimization for Learning](https://github.com/NilRom/UNI/tree/main/optimization_for_machine_learning)
 This course covers optimization methods used in shallow- and deep learning such as SGD, ADAM and proximal GD. Below is an comparison of the 1D loss landscape for a neural network using Relu or Sigmoid activation functions.
 
 ![Screen Shot 2022-11-01 at 16 24 24](https://user-images.githubusercontent.com/79469939/199270981-3f396ecf-7bbb-4daa-b072-2f8a106619aa.png)
+
+## [FMAN45 Machine Learning](https://github.com/NilRom/UNI/tree/main/optimization_for_machine_learning)
+This course is an introduction to machine learning covering the classical supervised- and unsupervised methods, deep learning and reinforcement learning. Below is an image of an RL agent that has learned to play snake.
+
+
+![Screen Shot 2022-11-01 at 16 49 28](https://user-images.githubusercontent.com/79469939/199276951-c33d756e-056a-49e6-ba7c-4d90a51feca3.png)
+
 
 
 ## [FMNN25 Advanced Course in Numerical Algorithms with Python/SciPy](https://github.com/NilRom/UNI/tree/main/Advanced_algorithms_in_python)

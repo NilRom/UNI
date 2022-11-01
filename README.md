@@ -10,19 +10,22 @@ This is a web-app where the user can customize, train and test a supervised ML m
 
 ## [Object Detection Demo](https://github.com/NilRom/UNI/tree/main/object_detection_demo)
 This folder contains a sample demo of the object detection model I implemented at XPL. Naturally, this is not the project itself but rather a demo of what it does.
+
 <p float="left">
   <img src="https://user-images.githubusercontent.com/79469939/135309068-ed983ec9-469c-4f58-b958-fa46e514ae2c.png" width="400" height = "300"/>
   <img src="https://user-images.githubusercontent.com/79469939/135309198-c15d8377-ccb7-4bd3-9560-92375afc1086.png" width="400" height = "300"/>
 </p>
 
+## [EDAN20 Language Technology](https://github.com/NilRom/UNI/tree/main/language_technology)
+This is an introductary course to NLP. The folder contains scripts and reports covering different NLP algorithms. Below is an image displaying the first transformer architecture from the attention is all you need paper.
+
+![trans](https://user-images.githubusercontent.com/79469939/199274579-a8eb2bfb-3a6a-490f-bcf9-06892ffde4ae.png)
+
 ## [MNIST Live Classifier](https://github.com/NilRom/UNI/tree/main/misc/MNIST_live_classifier_app)
 
 This is another toy web-app that I created after having learnt the basics of pytorch. It enables the user to draw an MNIST-like digit and having it classified by a pretrained digit classifier. Try it out [here.](https://github.com/NilRom/UNI/tree/main/misc/MNIST_live_classifier_app)
-![Screen Shot 2022-11-01 at 16 00 01](https://user-images.githubusercontent.com/79469939/199267485-097391e0-76fe-4ecb-b763-64a889647906.png)
 
-## [EDAN20 Language Technology](https://github.com/NilRom/UNI/tree/main/language_technology)
-This is an introduction course to NLP. The folder contains scripts and reports covering different NLP algorithms. Below is an image displaying the first transformer architecture from the attention is all you need paper.
-![trans](https://user-images.githubusercontent.com/79469939/199274579-a8eb2bfb-3a6a-490f-bcf9-06892ffde4ae.png)
+![Screen Shot 2022-11-01 at 16 00 01](https://user-images.githubusercontent.com/79469939/199267485-097391e0-76fe-4ecb-b763-64a889647906.png)
 
 
 ## [FRTN50 Optimization for Learning](https://github.com/NilRom/UNI/tree/main/optimization_for_machine_learning)

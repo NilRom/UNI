@@ -55,7 +55,7 @@ ey = ey.y( length(foundModel.B):end );
 fprintf('\nThe variance of the residual is %5.3f.\n', var(ey) )
  
 % Plot the ACF and PACF of the residual.
-[acfEst, pacfEst] = plotACFnPACF( ey, noLags, titleStr );
+[acfEst, pacfEst] = plotACFnPACF( ey, noLags, titleStr);
  
 % Is the residual white? Lets examine the Monti test.
 checkIfWhite( ey );

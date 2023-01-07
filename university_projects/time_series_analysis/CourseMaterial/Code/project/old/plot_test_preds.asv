@@ -1,0 +1,31 @@
+rng(0)
+addpath Code/project/custom_functions/
+clear 
+clc
+df = loadCleanValidate(0);
+df = shift_exo(df, 0);
+start_date = '1994-09-01';
+[df_train, df_val, df_test] = trainValTestSplit(df, start_date, 0);
+load Code/project/preds/task_a.mat
+load Code/project/preds/task_naive.mat
+load Code/project/preds/task_b.mat
+load Code/project/preds/task_c.mat
+
+preds_1 = [test_predictions_naive(:,1) test_predictions_a(:,1) test_predictions_b(:,1) test_predictions_c(:,1)];
+preds_9 = [test_predictions_naive(:,2) test_predictions_a(:,2) test_predictions_b(:,2) test_predictions_c(:,2)];
+
+f = figure;
+f.Position = [100 100 700 300*length(preds_1)];
+newcolors = ["#0072BD","#D95319","#77AC30"];
+model_names = ["Model Naive", "Model A","Model B","Model C"];
+colororder(newcolors);
+for k0 = 1:4
+    subplot(4, 1, k0)
+    plot(df_test.time, df_test.t_sla)
+    hold on
+    plot(df_test.time, preds_1(:,k0))
+    hold on
+    plot(df_test.time, preds_9(:,k0))
+    title(model_names(k0))
+    legend(["Actual", "1 Step Prediction", "9 Step Prediction"])
+end

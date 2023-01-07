@@ -1,0 +1,34 @@
+
+
+- I can't prewhite x similar to how we did in lab2. Is that a problem? A: Not really
+
+- Is it ok, to just guess untill we get a white residual for the model orders in the BJ polys? A:YES
+
+- How do you formulate diofantine equations when you have a BJ model? PAGE  A:245 in book is good
+
+- What is the purpose of jusing prediction at t to predict t+9|t A:Just do it
+--------------------------------------------------------------------------------
+
+- What is a good residual variance? Better than Naive
+
+- How much can we expect to reduce the variance when we add one more column? No idea
+
+- What is a good Naive comparison? Guess yesterdays value? thats good
+
+- How warm start on test set? Run through all data and extract test validation seperatley
+
+--------------------------------------------------------------------------------
+
+-  How to formulate state-space representation of BJ model? Easier to rewrite as an ARMAX and then use book?
+- Should I put all the dynamics in the C matrix? YES
+--------------------------------------------------------------------------------
+- How come my parameter estimation gets F:ed when I include an exo term
+- Help with prediction step
+- How to deal with exo when doing prediction in Kalman? Estimate it? How? 
+
+
+
+
+ToDo:
+Change prediction to include all data and then extract to get rid of warm start problem DONE 
+

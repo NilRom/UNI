@@ -65,6 +65,8 @@ for t=4:N-k                                     % We use t-3, so start at t=4. A
     % this is \hat{y}_{t|t-1}.
     Ck = [ -y(t) h_et(t) h_et(t-2) ];           % C_{t+1|t}
     yk = Ck*xt(:,t);                            % \hat{y}_{t+1|t} = C_{t+1|t} A x_{t|t}
+    
+
 
     % Note that the k-step predictions is formed using the k-1, k-2, ...
     % predictions, with the predicted future noises being set to zero. If

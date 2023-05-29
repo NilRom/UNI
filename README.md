@@ -2,6 +2,10 @@
 Hello!
 This is my backup of personal computer projects. Due to confidentiality reasons I can not share the projects from past work experiance. If you want to take a look at those projects, please let me know and I will ask past employers for permission to share. 
 
+
+![image](https://github.com/NilRom/UNI/assets/79469939/49f8f7b0-d3b2-47fd-af60-e3b424df71d4)
+
+
 ## [(WIP) Supervised Learning Sand-Box](https://github.com/NilRom/UNI/tree/main/personal_projects/misc/ds_sand_box)
 This is a web-app where the user can customize, train and test a supervised ML model on toy openML datasets or a custom csv file. The program will automatically detect if it is a classification or regression problem and create a basic pre-processing pipeline to fit the uploaded toy dataset. The app is available [here.](https://github.com/NilRom/UNI/tree/main/misc/ds_sand_box)
 
